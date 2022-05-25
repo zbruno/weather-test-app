@@ -1,0 +1,15 @@
+.container {
+  @apply w-full flex items-end;
+}
+
+.inputContainer {
+  @apply block w-full mr-4;
+}
+
+.label {
+  @apply block text-sm font-semibold text-gray-700;
+}
+
+.input {
+  @apply appearance-none border border-solid p-2 shadow-sm focus:ring-indigo-500 focus:border-indigo-500 block w-full sm:text-sm border-gray-300 rounded-md mt-1;
+}
