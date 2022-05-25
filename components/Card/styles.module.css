@@ -1,0 +1,7 @@
+.card {
+  @apply overflow-hidden shadow rounded-lg w-full bg-white;
+}
+
+.cardContent {
+  @apply flex flex-col p-4 sm:p-6;
+}

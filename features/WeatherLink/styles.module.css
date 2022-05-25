@@ -1,0 +1,7 @@
+.linkContainer {
+  @apply w-full text-center flex items-center justify-center;
+}
+
+.link {
+  @apply block text-sm no-underline font-medium py-2 px-4 bg-indigo-500 text-white rounded-md hover:bg-indigo-600;
+}

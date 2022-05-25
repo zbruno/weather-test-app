@@ -1,0 +1,42 @@
+.headerContainer {
+  @apply bg-indigo-500 p-4 flex items-center;
+}
+
+.iconContainer {
+}
+
+.icon {
+  @apply text-white text-4xl text-center w-full;
+}
+
+.location {
+  @apply text-white text-2xl pl-4 w-full font-semibold truncate;
+}
+
+.temp {
+  @apply text-3xl text-white font-semibold;
+}
+
+.weatherGrid {
+  @apply grid grid-cols-3 gap-4;
+}
+
+.gridItem {
+  @apply relative flex flex-col mb-4;
+}
+
+.subIcon {
+  @apply text-gray-900 text-3xl text-center w-full mb-4;
+}
+
+.weatherText {
+  @apply text-2xl text-gray-900 truncate w-full text-center font-semibold mt-0 mb-1;
+}
+
+.weatherDescriptionContainer {
+  @apply ml-16 pb-6 flex items-baseline sm:pb-7;
+}
+
+.weatherDescription {
+  @apply text-sm font-medium text-gray-600 w-full text-center mt-0 mb-6;
+}
